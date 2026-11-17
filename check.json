@@ -1,0 +1,32 @@
+{
+  "command": [
+    "dotnet",
+    "bin/Debug/net8.0/App.dll"
+  ],
+  "expected": {
+    "cycles": [
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    "inverse": [
+      1,
+      2,
+      0,
+      4,
+      3,
+      5
+    ],
+    "parity": "odd",
+    "order": "6"
+  }
+}
